@@ -1,0 +1,27 @@
+.body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width:100%;
+}
+.container {
+	height: 100vh;
+	width: 100%;
+	background-image :url(blog.jfif);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+    transition: 5s;
+
+
+    animation-name: ;
+    animation-duration:alternate-reverse ;
+    animation-direction:30s;
+    animation-fill-mode: forwards ;
+    animation-iteration-count:infinte ;
+    animation -play-state:running ;
+    animation-timing-function: ease-in-out;
+
+}
+
+}

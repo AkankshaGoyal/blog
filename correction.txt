@@ -1,0 +1,182 @@
+<div class="container">
+
+  <div class="auth-content">
+  <form action ="login.html" method ="post">
+   <h1 class ="form-title">Sign Up</h2>
+    <div>
+      <label>Username</label>
+      <input type="text" name ="username"class="text-input">
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="password" name ="password"class="text-input"id ="myInput">
+      <input type="checkbox" onclick="myFunction()">Show Password
+    </div>
+    <button type="button" class="btn btn-primary btn-lg">login</button>
+    
+  <!--<button type="button" class="btn btn-success">Register</button>
+  <a href="login.html><button type="button" class="btn btn-info">Sign-in</button></a>-->
+</form>
+</div>
+</div>
+
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+function relocate_home()
+{
+     location.href = "login.html";
+} 
+/*Media query */
+/*@media only screen and (max-width: 750px){
+ header ul{
+      position:relative;
+     }
+header ul{
+    width: 100%;
+    background: grey;
+    max-height: 0px;
+    overflow:hidden;
+  }
+  header ul li {
+  width:100%;
+}
+header ul li ul{
+  position:static;
+  width:180px;
+  display:block;
+  width:100%;
+
+}
+header ul li ul li a{
+  padding: 10px;
+  background: #ffedf0;
+  color: #444;
+  padding-left: 50px;
+}
+header ul li ul li a  .logout{
+         color:red;
+}
+header  .menu-toggle{
+  display: block;
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-size:1.9em;
+}
+header .logo {
+  margin-left:8cm;
+
+}
+header .logo-text{
+      font-size: .9em;
+}
+header  .logo-text span{
+  color:grey;
+}
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 640px) { 
+h1{
+  font-size:30px;
+}
+header ul{
+      position:relative;
+     }
+header ul{
+    width: 100%;
+    background: grey;
+    max-height: 0px;
+    overflow:hidden;
+  }
+  header ul li {
+  width:100%;
+}
+header ul li ul{
+  position:static;
+  width:180px;
+  display:block;
+  width:100%;
+
+}
+header ul li ul li a{
+  padding: 10px;
+  background: #ffedf0;
+  color: #444;
+  padding-left: 50px;
+}
+header ul li ul li a  .logout{
+         color:red;
+}
+header  .menu-toggle{
+  display: block;
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-size:1.9em;
+}
+header .logo {
+  margin-left:8cm;
+
+}
+header .logo-text{
+      font-size: .9em;
+}
+header  .logo-text span{
+  color:grey;
+}
+}
+h
+ader ul{
+      position:relative;
+     }
+header ul{
+    width: 100%;
+    background: grey;
+    max-height: 0px;
+    overflow:hidden;
+  }
+  header ul li {
+  width:100%;
+}
+header ul li ul{
+  position:static;
+  width:180px;
+  display:block;
+  width:100%;
+
+}
+header ul li ul li a{
+  padding: 10px;
+  background: #ffedf0;
+  color: #444;
+  padding-left: 50px;
+}
+header ul li ul li a  .logout{
+         color:red;
+}
+header  .menu-toggle{
+  display: block;
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-size:1.9em;
+}
+header .logo {
+  margin-left:8cm;
+
+}
+header .logo-text{
+      font-size: .9em;
+}
+header  .logo-text span{
+  color:grey;
+}
+}
+
